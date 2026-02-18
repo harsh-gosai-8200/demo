@@ -24,6 +24,7 @@ public class EmployeeRestController {
 
     @GetMapping("/employees")
     public List<Employee> findAll(){
+        System.out.println("Test commit ....");
         return employeeService.findAll();
     }
 
